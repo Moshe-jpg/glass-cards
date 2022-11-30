@@ -5,7 +5,7 @@
 }
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 section {
@@ -78,9 +78,9 @@ section .card .content {
 }
 
 section .card:hover .content {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(-50px);
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-50px);
 }
 
 section .card .content .size,
@@ -117,6 +117,7 @@ section .card .content .size span {
   cursor: pointer;
 }
 
+section .card .content a:hover,
 section .card .content .size span:hover {
   background: #68b984;
 }
@@ -156,5 +157,5 @@ section .card .content a {
   color: #111;
   text-decoration: none;
   text-transform: uppercase;
-
+  transition: 0.5s ease-in-out;
 }
